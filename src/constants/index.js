@@ -24,47 +24,47 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Nijin KV',
+    position: 'CEO FindAStartup',
+    img: 'assets/nijin.jpeg',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Adith was an inspiring experience. He brought fresh ideas and a clear technical vision to the project, helping us turn our startup concept into a polished, scalable product. His problem-solving skills and dedication made a real difference  truly a reliable and innovative developer.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'Augustine Vadakumcherry',
+    position: 'Founder of LenientTree',
+    img: 'assets/Agustine.jpeg',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Adith has an exceptional eye for design and functionality. He seamlessly blended creativity with technical precision to deliver exactly what our brand needed. His ability to understand requirements and execute them efficiently sets him apart from the rest.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'Dr. Pramod Gopinath',
+    position: 'Chair,IEEE Photonics Society KS  ',
+    img: 'assets/pramod.jpeg',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I can’t say enough good things about Adith. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'Hari Prasad',
+    position: 'AI Researcher, Minus Zero',
+    img: 'assets/HP.jpeg',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Adith is an exceptional developer with a deep understanding of AI and its real-world applications. His ability to combine creativity with technical precision makes him stand out in every project he takes on. Working with him was a seamless experience'
   },
 ];
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Licensure',
+    desc: 'Licensure is a modern pharmacy institute dedicated to building skilled, confident, and career-ready pharmacy professionals. With expert faculty, practical training, and a student-first approach, it prepares you to thrive in the healthcare industry',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript,  Podcastr is designed for optimal performance and scalability.',
+    href: 'https://github.com/FindAStartup/Licensure',
+    texture: '/textures/project/licensure.mp4',
+    logo: '/assets/licensure.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -95,13 +95,12 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Alumni connect',
+    desc: 'Alumni Connect is a professional networking platform built to bridge the gap between students, faculty, and alumni fostering collaboration, mentorship, and career growth within college communities',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+      'With Alumni connect, users can experience the future of collaboration, where people can connect and  work together in real time without any lag, by using Next.js and Supabase newest features.',
+    texture: '/textures/project/connect.mp4',
+    logo: '/assets/connect.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -132,13 +131,13 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'Pollo-Mio',
+    desc: 'Pollo Mio is a modern restaurant website designed to showcase the vibrant flavors and welcoming atmosphere of Pollo Mio Chicken & Sides a brand known for its fresh, flame-grilled dishes and signature burgers.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+      'With a focus on efficiency and built using Next.js,Twillind and Email.JS that enhance operational workflows.',
+    href: 'https://www.pollomio.in/',
+    texture: '/textures/project/pollomio.mp4',
+    logo: '/assets/pollomio.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -171,12 +170,12 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+    title: 'Job Management ',
+    desc: 'Developed a full-stack job estimation and management platform designed for automobile workshops. The system allows estimators to create detailed job cards, assign workers and machines, and automatically calculate total costs based on category hourly rates, machine operation time, and material costs',
     subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
+      'Built with React.js, Node.js, and MongoDB, this smart workshop estimator automates real-time job costing by integrating dynamic machine rates, man-hour calculations, and material tracking through RESTful APIs.',
+    href: 'https://jobmanagementsystem-1.onrender.com/',
+    texture: '/textures/project/job.mp4',
     logo: '/assets/project-logo4.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
@@ -192,29 +191,29 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'CSS',
+        path: 'assets/css.png',
       },
       {
         id: 3,
         name: 'TypeScript',
-        path: '/assets/typescript.png',
+        path: '/assets/js.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Mongo DB',
+        path: '/assets/mongo.png',
       },
     ],
   },
   {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+    title: 'ShareTaste',
+    desc: 'ShareTaste is a web application designed to help users discover, share, and organize recipes based on their dietary preferences, allergies, and ingredient availability. The platform promotes safe and personalized cooking experiences by using AI-driven validation to ensure ingredient combinations are non-toxic and cooking instructions are reliable.',
     subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
+      'Built using the MERN stack and powered by Google’s Gemini AI, ShareTaste offers an intelligent, user-friendly platform for sharing and discovering personalized recipes effortlessly.',
+    href: 'https://client-lqzc.onrender.com',
+    texture: '/textures/project/sharetaste.mp4',
+    logo: '/assets/circlelogo.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -229,18 +228,18 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
+        name: 'CSS',
+        path: 'assets/css.png',
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'MongoDB',
+        path: '/assets/mongo.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'Gemini',
+        path: '/assets/gemini.png',
       },
     ],
   },
@@ -260,29 +259,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'FindAStartup',
+    pos: 'Full Stack Developer',
+    duration: 'Nov 2024 - Present',
+    title: "At FindAStartup, I contributed to developing full-stack web projects, collaborated on outsourced client solutions, and led technical teaching sessions for budding developers, bridging practical skills with real-world applications.",
+    icon: '/assets/FAS.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'LenientTree',
+    pos: 'Full Stack Developer',
+    duration: 'Jan 2025 - July 2025',
+    title: "At LenientTree, I worked as a Full Stack Developer, building scalable applications using microservices architecture. I also designed and implemented cloud-based solutions on AWS, optimizing performance and reliability across multiple projects.",
+    icon: '/assets/lt.png',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Webmaster',
+    pos: 'IEEE Pphotonics Society  Kerala Chapter',
+    duration: ' March 2024 - Jan  2025',
+    title: "As the Webmaster of the IEEE Photonics Society Kerala Chapter, I developed a WordPress-based website to enhance the Society’s digital presence and streamline communication. The platform significantly improved student engagement and activity visibility across member institutions.",
+    icon: '/assets/pho.jpg',
     animation: 'salute',
   },
 ];

@@ -1,16 +1,17 @@
 import emailjs from '@emailjs/browser';
-import { useRef, useState } from 'react';
-
+import { useRef, useState, useEffect } from 'react';
 import useAlert from '../hooks/useAlert.js';
 import Alert from '../components/Alert.jsx';
 
 const Contact = () => {
   const formRef = useRef();
-
   const { alert, showAlert, hideAlert } = useAlert();
   const [loading, setLoading] = useState(false);
-
   const [form, setForm] = useState({ name: '', email: '', message: '' });
+
+  useEffect(() => {
+    emailjs.init(import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
+  }, []);
 
   const handleChange = ({ target: { name, value } }) => {
     setForm({ ...form, [name]: value });
@@ -26,12 +27,11 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: 'JavaScript Mastery',
+          to_name: 'Adith K P',
           from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          to_email: 'adithkp000@gmail.com',
           message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
+        }
       )
       .then(
         () => {
@@ -44,23 +44,18 @@ const Contact = () => {
 
           setTimeout(() => {
             hideAlert(false);
-            setForm({
-              name: '',
-              email: '',
-              message: '',
-            });
-          }, [3000]);
+            setForm({ name: '', email: '', message: '' });
+          }, 3000);
         },
         (error) => {
           setLoading(false);
-          console.error(error);
-
+          console.error('EmailJS error:', error);
           showAlert({
             show: true,
-            text: "I didn't receive your message 😢",
+            text: 'Something went wrong 😞 Please try again.',
             type: 'danger',
           });
-        },
+        }
       );
   };
 
@@ -120,7 +115,6 @@ const Contact = () => {
 
             <button className="field-btn" type="submit" disabled={loading}>
               {loading ? 'Sending...' : 'Send Message'}
-
               <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
             </button>
           </form>
